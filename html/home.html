@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MebToon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500&family=Mandali&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/headerfooter.css">
+</head>
+<body>
+
+        <header>
+            <div id="logo" class="header-content"><img src="../Assets/logo.png" width="120"alt=""></div>
+            <div class="navigation-menu">
+                <i class="fa fa-bars header-content" aria-hidden="true"></i>
+                <div class="dropdown-menu">
+                  <a href="home.html">Home</a>
+                  <a href="topAuthor.html">Top Author</a>
+                  <a href="topMebtoonAll.html">Top MebToon</a>
+                  <a href="subscribe.html">Subscribe</a>
+                  <a href="category.html">Categories</a>
+                </div>
+            </div>
+           </header>
+            
+           <div class="top-container">
+            <div class="image-slider-container">
+                <div class="image-slider">
+                    <div class="image-slider-item">
+                        <img src="../Assets/image-slider-1.png" alt=""> </div>
+                    <div class="image-slider-item">
+                        <img src="../Assets/image-slider-2.png" alt=""> </div>
+                    <div class="image-slider-item">
+                        <img src="../Assets/image-slider-3.png" alt=""> </div>
+                    <div class="image-slider-item">
+                        <img src="../Assets/image-slider-4.png" alt=""> </div>
+                    <div class="image-slider-item">
+                        <img src="../Assets/image-slider-5.png" alt=""> </div>
+                </div>
+                
+                <div class="dot-container">
+                    <span class="dot dot-1" onclick="dotClick(1)"></span>
+                    <span class="dot dot-2" onclick="dotClick(2)"></span>
+                    <span class="dot dot-3" onclick="dotClick(3)"></span>
+                    <span class="dot dot-4" onclick="dotClick(4)"></span>
+                    <span class="dot dot-5" onclick="dotClick(5)"></span>
+                </div>
+           </div>
+
+           <div class="mebtoon">
+            <pre>Meb<span style="color: #780dad;">Toon</span>
+<span class="description">A place for you to read comics online</span></pre>
+              </div>
+           </div>
+         
+        <div class="content">
+            <div class="recent-released-title">
+                <h2>Recent Released Comics</h2>
+                <div class="underline"></div>
+            </div>
+
+            <!-- RESPONSIVE -->
+            <div class="recent-released-content-responsive responsive">
+                    <div class="row responsive">
+                        <div class="responsive-layout responsive">
+                            <div class="recent comic-1">
+                                <img src="../Assets/comic-1.jpeg" alt="">
+                                <div class="comic-description">
+                                    <div class="comic-title">Weak Hero</div>
+                                    <div class="comic-genre">Action</div>
+                                    <div class="comic-likes"> <i class="fa-regular fa-heart"></i>12.5M</div>
+                                </div>
+                            </div>
+                            <div class="recent comic-2">
+                                <img src="../Assets/comic-2.jpeg" alt="">
+                                <div class="comic-description">
+                                    <div class="comic-title">Her Secret!</div>
+                                    <div class="comic-genre">Drama</div>
+                                    <div class="comic-likes"> <i class="fa-regular fa-heart"></i>2M</div>
+                                </div>
+                            </div>
+                                <div class="recent comic-3">
+                                <img src="../Assets/comic-3.jpeg" alt="">
+                                <div class="comic-description">
+                                    <div class="comic-title">Killstagram</div>
+                                    <div class="comic-genre">Thriller</div>
+                                    <div class="comic-likes"> <i class="fa-regular fa-heart"></i>1.7M</div>
+                                </div>
+                        </div> 
+                    </div>
+
+                    <div class="row responsive">
+                        <div class="responsive-layout responsive">
+                            <div class="recent comic-4">
+                                <img src="../Assets/comic-4.jpeg" alt="">
+                                <div class="comic-description">
+                                    <div class="comic-title">True Beauty</div>
+                                    <div class="comic-genre">Romance</div>
+                                    <div class="comic-likes"> <i class="fa-regular fa-heart"></i>30M</div>
+                                </div>
+                        </div>
+                            <div class="recent comic-5">
+                                <img src="../Assets/comic-5.jpeg" alt="">
+                                <div class="comic-description">
+                                    <div class="comic-title">7 Wonders</div>
+                                    <div class="comic-genre">Fantasy</div>
+                                    <div class="comic-likes"> <i class="fa-regular fa-heart"></i>20M</div>
+                                </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+
+             <!-- RESPONSIVE 500px -->
+             <div class="recent-released-content-responsive responsive-500">
+                <div class="row responsive-500">
+                    <div class="responsive-layout responsive-500">
+                        <div class="recent comic-1">
+                            <img src="../Assets/comic-1.jpeg" alt="">
+                            <div class="comic-description">
+                                <div class="comic-title">Weak Hero</div>
+                                <div class="comic-genre">Action</div>
+                                <div class="comic-likes"> <i class="fa-regular fa-heart"></i>12.5M</div>
+                            </div>
+                        </div>
+                        <div class="recent comic-2">
+                            <img src="../Assets/comic-2.jpeg" alt="">
+                            <div class="comic-description">
+                                <div class="comic-title">Her Secret!</div>
+                                <div class="comic-genre">Drama</div>
+                                <div class="comic-likes"> <i class="fa-regular fa-heart"></i>2M</div>
+                            </div>
+                        </div>
+                </div>
+                <div class="row responsive-500">
+                    <div class="responsive-layout responsive-500">
+                        <div class="recent comic-3">
+                            <img src="../Assets/comic-3.jpeg" alt="">
+                            <div class="comic-description">
+                                <div class="comic-title">Killstagram</div>
+                                <div class="comic-genre">Thriller</div>
+                                <div class="comic-likes"> <i class="fa-regular fa-heart"></i>1.7M</div>
+                            </div>
+                    </div> 
+                        <div class="recent comic-4">
+                            <img src="../Assets/comic-4.jpeg" alt="">
+                            <div class="comic-description">
+                                <div class="comic-title">True Beauty</div>
+                                <div class="comic-genre">Romance</div>
+                                <div class="comic-likes"> <i class="fa-regular fa-heart"></i>30M</div>
+                            </div>
+                    </div>
+                     
+                </div>
+                </div>
+                <div class="row responsive-500">
+                    <div class="responsive-layout responsive-500">
+                       <div class="recent comic-5">
+                            <img src="../Assets/comic-5.jpeg" alt="">
+                            <div class="comic-description">
+                                <div class="comic-title">7 Wonders</div>
+                                <div class="comic-genre">Fantasy</div>
+                                <div class="comic-likes"> <i class="fa-regular fa-heart"></i>20M</div>
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+
+            <div class="recent-released-content">
+                <div class="recent comic-1">
+                    <img src="../Assets/comic-1.jpeg" alt="">
+                    <div class="comic-description">
+                        <div class="comic-title">Weak Hero</div>
+                        <div class="comic-genre">Action</div>
+                        <div class="comic-likes"> <i class="fa-regular fa-heart"></i>12.5M</div>
+                    </div>
+                </div>
+                 <div class="recent comic-2">
+                    <img src="../Assets/comic-2.jpeg" alt="">
+                    <div class="comic-description">
+                        <div class="comic-title">Her Secret!</div>
+                        <div class="comic-genre">Drama</div>
+                        <div class="comic-likes"> <i class="fa-regular fa-heart"></i>2M</div>
+                    </div>
+                 </div>
+                    <div class="recent comic-3">
+                    <img src="../Assets/comic-3.jpeg" alt="">
+                    <div class="comic-description">
+                        <div class="comic-title">Killstagram</div>
+                        <div class="comic-genre">Thriller</div>
+                        <div class="comic-likes"> <i class="fa-regular fa-heart"></i>1.7M</div>
+                    </div>
+                </div>
+                <div class="recent comic-4">
+                    <img src="../Assets/comic-4.jpeg" alt="">
+                    <div class="comic-description">
+                        <div class="comic-title">True Beauty</div>
+                        <div class="comic-genre">Romance</div>
+                        <div class="comic-likes"> <i class="fa-regular fa-heart"></i>30M</div>
+                    </div>
+                </div>
+                <div class="recent comic-5">
+                    <img src="../Assets/comic-5.jpeg" alt="">
+                    <div class="comic-description">
+                        <div class="comic-title">7 Wonders</div>
+                        <div class="comic-genre">Fantasy</div>
+                        <div class="comic-likes"> <i class="fa-regular fa-heart"></i>20M</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer> 
+            <div class="footer-left"> <span style="margin-right: 8px;"> &copy;</span> Group 9 - BA11 </div>
+            <div class="footer-right"> 
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a></div>
+                </footer>
+  
+<script src="../js/JQuery.js"></script>
+<script src="../js/home.js"></script>
+</body>
+
+</html>

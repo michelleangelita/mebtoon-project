@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500&family=Mandali&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../css/subscribe.css">
+    <link rel="stylesheet" href="../css/headerfooter.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo" class="header-content"><img src="../Assets/logo.png" width="130"alt=""></div>
+        <div class="navigation-menu">
+            <i class="fa fa-bars header-content" aria-hidden="true"></i>
+            <div class="dropdown-menu">
+              <a href="home.html">Home</a>
+              <a href="topAuthor.html">Top Author</a>
+              <a href="topMebtoonAll.html">Top MebToon</a>
+              <a href="subscribe.html">Subscribe</a>
+              <a href="category.html">Categories</a>
+            </div>
+        </div>
+       </header>
+       
+    <div class="content">
+        <div class="image">
+            <img src="../Assets/subscription.png" alt="" width="550">
+        </div>
+        <div class="form-layout">
+        <div class="form-wrapper">
+            <div class="title">
+                <h1 class="title">Subscription</h1>
+                <div class="underline"></div>
+            </div>
+    
+            <br><br>
+    
+            <div class="form">
+                <form id="formId">
+            
+                    <label for="" class="label">Name</label><br>
+                    <input type="text" class="input" placeholder="Input your name" id="nameId">
+              
+                    <br><br>
+            
+                    <label for="" class="label">Email</label><br>
+                    <input type="email" class="input" placeholder="Input your email" id="emailId">
+            
+                    <br><br>
+    
+                    <label for="" class="label">Phone Number</label><br>
+                    <input type="text" class="input" placeholder="Input your phone number" id="phoneId">
+                    
+                    <br><br>
+    
+                    <label for="" class="label">Country</label><br>
+                    <select id="countryId">
+                        <option value="0">Select your country</option>
+                        <option value="1">Indonesia</option>
+                        <option value="2">Japan</option>
+                        <option value="3">Thailand</option>
+                        <option value="4">Vietnam</option>
+                        <option value="5">Korea</option>
+                    </select>
+                                
+                    <br><br><br>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="termsId"><p class="terms">I agree to the terms and conditions</p>
+                    </div>
+            
+                    <br><br>
+            
+                    <div class="button">
+                        <input type="submit" class="submitBtn" value="Subscribe">
+                        <input type="reset" class="resetBtn" value="Reset">
+                    </div>
+                </form>
+            </div></div>
+        </div>
+    </div>
+    <footer> 
+        <div class="footer-left"> <span style="margin-right: 8px;"> &copy;</span> Group 9 - BA11 </div>
+        <div class="footer-right"> 
+            <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a></div>
+     </footer>
+    </body>
+<script src="../js/JQuery.js"></script>
+<script src="../js/subscribe.js"></script>
+<script src="../js/home.js"></script>
+</html>

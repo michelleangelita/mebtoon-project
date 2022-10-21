@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mandali', sans-serif;
+}
+
+body{
+    background-color: rgb(246, 246, 246);
+}
+
+a {
+    text-decoration: none;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.contentNav{
+    position: relative;
+    margin: auto;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    border-top: 2px solid rgba(0, 0, 0, 0.359);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.359);
+    text-align: center;
+}
+
+.contentNav a:hover{
+    color: #5a127d;
+}
+
+.content h1{
+    color: #454545;
+    font-size: 22px;
+    margin-bottom: -20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.contentNav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.438);
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 70px;
+    width: 200px;
+}
+
+#activePage{
+    width: 200px;
+    margin: 0px 0px;
+    border-bottom: 3px solid #780dad;
+}
+
+#activePage .hoverPage1{
+    border-bottom: 0px solid #780dad;
+    margin-top: 0px;
+}
+
+#activePage a{
+    color: #5a127d;
+}
+
+.hoverPage1{
+    width: 200px;
+}
+
+.hoverPage1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 200px;
+}
+
+.hoverPage1 a{
+    padding-left: 70px;
+    padding-right: 85px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.hoverPage1:hover{
+    margin-bottom: 0px;
+    border-bottom: 3px solid #5a127d;
+    transition: 0.5s;
+}
+
+.content-comics{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.content-comics-wrapper{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.comics-list{
+    list-style: none;
+    float: left;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 1px 24px 62px 15px rgba(0,0,0,0.17);
+    border: 0.5px solid rgba(189, 189, 189, 0.2);
+    border-radius: 20px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comics-list h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.comics-list h3{
+    font-size: 12px;
+    color: grey;
+    font-weight: lighter;
+}
+
+.image{
+    width: 210px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .content{
+        width: 100%;
+    }
+    .contentNav{
+        width: 100%;
+    }
+    .contentNav a{
+        margin-right: 70px;
+        width: 100px;
+    }
+    #activePage{
+        width: 150px;
+    }
+    .hoverPage1{
+        width: 150px;
+    }
+    .hoverPage1 a{
+        padding-left: 50px;
+        padding-right: 72px;
+    }
+    .comics-list{
+        padding: 15px;
+        margin: 10px;
+        width: 250px;
+    }
+    .comics1{
+        padding-left: 51px;
+        padding-right: 51px;
+    }
+    .comics2{
+        padding-left: 51px;
+        padding-right: 51px;
+    }
+    .comics-list h1{
+        padding-top: 20px;
+        padding-bottom: 18px;
+        font-size: 12px;
+    }
+    .comics-list h3{
+        font-size: 7px;
+        color: grey;
+        font-weight: lighter;
+    }
+    .image{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content{
+        width: 100%;
+    }
+    .contentNav{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contentNav a{
+        font-size: 5px;
+        font-weight: 600;
+        margin-right: 90px;
+        width: 100px;
+    }
+    #activePage{
+        width: 100px;
+    }
+    .hoverPage1{
+        width: 100px;
+    }
+    .hoverPage1 a{
+        padding-left: 34px;
+        padding-right: 29px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        font-size: 0.7rem;
+    }
+    .comics1{
+        padding-left: 51px;
+        padding-right: 0px;
+    }
+    .comics2{
+        padding-left: 51px;
+        padding-right: 0px;
+    }
+    .comics-list{
+        padding: 25px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 130px;
+    }
+    .comics-list h1{
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 0.8rem;
+    }
+    .comics-list h3{
+        font-size: 0.7rem;
+        color: grey;
+        font-weight: lighter;
+    }
+    .image{
+        width: 100%;
+    }
+}
